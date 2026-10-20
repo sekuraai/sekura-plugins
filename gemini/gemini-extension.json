@@ -1,0 +1,9 @@
+{
+  "name": "sekura",
+  "version": "1.0.0",
+  "mcpServers": {
+    "sekura": {
+      "httpUrl": "https://sekura.ai/mcp"
+    }
+  }
+}

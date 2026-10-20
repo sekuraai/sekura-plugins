@@ -1,0 +1,8 @@
+{
+  "name": "sekura",
+  "description": "Scan a GitHub repository for vulnerabilities, with proof for every finding, from your coding agent.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sekura Inc."
+  }
+}

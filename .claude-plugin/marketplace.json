@@ -1,0 +1,30 @@
+{
+  "name": "sekura",
+  "description": "Sekura, the AI red team: scan a GitHub repository for vulnerabilities from Claude Code",
+  "owner": {
+    "name": "Sekura Inc.",
+    "url": "https://sekura.ai",
+    "email": "hello@sekura.ai"
+  },
+  "metadata": {
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "sekura",
+      "source": "./plugins/sekura",
+      "description": "Scan a GitHub repository for vulnerabilities, with proof for every finding, from your coding agent.",
+      "category": "security",
+      "tags": [
+        "security",
+        "vulnerability-scanning",
+        "penetration-testing",
+        "appsec",
+        "github",
+        "sast",
+        "dast",
+        "mcp"
+      ]
+    }
+  ]
+}

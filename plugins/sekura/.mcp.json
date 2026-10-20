@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sekura": {
+      "type": "http",
+      "url": "https://sekura.ai/mcp"
+    }
+  }
+}

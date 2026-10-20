@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "sekura",
+  "description": "Scan a GitHub repository for vulnerabilities, with proof for every finding, from your coding agent."
+}

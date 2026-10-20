@@ -1,0 +1,29 @@
+{
+  "name": "sekura",
+  "displayName": "Sekura",
+  "version": "1.0.0",
+  "description": "Scan a GitHub repository for vulnerabilities, with proof for every finding, from your coding agent.",
+  "author": {
+    "name": "Sekura Inc.",
+    "url": "https://sekura.ai",
+    "email": "hello@sekura.ai"
+  },
+  "homepage": "https://sekura.ai/connect/",
+  "repository": "https://github.com/sekuraai/sekura-plugins",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "vulnerability-scanning",
+    "penetration-testing",
+    "appsec",
+    "github",
+    "sast",
+    "dast",
+    "mcp"
+  ],
+  "icon": "./logo.png",
+  "documentationUrl": "https://sekura.ai/connect/",
+  "supportUrl": "https://sekura.ai/contact/",
+  "privacyPolicyUrl": "https://sekura.ai/privacy/",
+  "termsOfServiceUrl": "https://sekura.ai/terms/"
+}
