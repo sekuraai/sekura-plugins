@@ -15,7 +15,7 @@ tell them to run `/mcp`, choose `sekura`, and approve in the browser.
 
 Read, free, no confirmation:
 
-- `getAccount`: who is signed in, and whether the free first scan is still available.
+- `getAccount`: who is signed in, what is billed, and whether the account's free first scan is still available on sekura.ai.
 - `listRepositories`: the repositories the Sekura GitHub App is installed on.
 - `listScans`, `getScan`, `getScanFindings`, `getReportLink`: scans, their status, their findings and the report.
 - `getPlans`, `getBilling`: the repositories on a recurring plan, and a billing summary without card numbers.
@@ -43,7 +43,7 @@ the scan starts once they have paid on sekura.ai.
 
 ## What to tell the user
 
-- The first scan on an account is free when `getAccount` says so.
+- The free first scan is taken on sekura.ai, never through this tool: when `getAccount` says it is still available, tell the user they can start it themselves at https://sekura.ai/app/start, and that a scan started here is Sekura Once at the quoted price.
 - A scan can take a while. Offer `getScan` to check on it rather than polling in a loop.
 - Findings carry proof. When summarising, keep the evidence the finding gives; do not soften a severity.
 - Sekura scans only repositories the user has granted through the Sekura GitHub App. To add one: https://sekura.ai/app.

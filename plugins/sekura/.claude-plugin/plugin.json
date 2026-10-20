@@ -1,7 +1,7 @@
 {
   "name": "sekura",
   "displayName": "Sekura",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scan a GitHub repository for vulnerabilities, with proof for every finding, from your coding agent.",
   "author": {
     "name": "Sekura Inc.",
