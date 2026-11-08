@@ -1,0 +1,51 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sekura",
+  "version": "1.0.0",
+  "description": "Security scans of your GitHub repositories, with proof for each finding.",
+  "author": {
+    "name": "Sekura Inc.",
+    "email": "hello@sekura.ai",
+    "url": "https://sekura.ai"
+  },
+  "homepage": "https://sekura.ai/connect/",
+  "repository": "https://github.com/sekuraai/sekura-plugins",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "vulnerability-scanning",
+    "appsec",
+    "github",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Sekura",
+        "shortDescription": "Security scans with proof",
+        "longDescription": "Sekura scans the GitHub repositories you grant its GitHub App for security vulnerabilities, and reports each finding with the proof that it is real. From here you can see which repositories Sekura can scan, follow a scan as it runs, read a summary of what it found and open the full report, change when a scheduled repository is scanned, and cancel a scan or a schedule. Nothing starts, changes or is cancelled until you have read what will happen and agreed.",
+        "developerName": "Sekura Inc.",
+        "category": "Developer Tools",
+        "capabilities": [
+          "See which repositories Sekura can scan",
+          "Follow a scan as it runs",
+          "Read findings and open reports",
+          "Change scan schedules",
+          "Cancel scans and schedules"
+        ],
+        "websiteURL": "https://sekura.ai/connect/",
+        "supportURL": "https://sekura.ai/contact/",
+        "privacyPolicyURL": "https://sekura.ai/privacy/",
+        "termsOfServiceURL": "https://sekura.ai/terms/",
+        "defaultPrompt": [
+          "Which of my repositories can Sekura scan?",
+          "What did my last Sekura scan find?",
+          "Is my Sekura scan finished yet?"
+        ],
+        "brandColor": "#1A5FD6",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/icon.png"
+      }
+    }
+  }
+}

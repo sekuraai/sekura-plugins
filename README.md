@@ -28,6 +28,7 @@ This repository holds manifests only. Every one of them points at the same serve
 | `docker/servers/sekura/` | The Docker MCP Catalog entry, submitted as a pull request to docker/mcp-registry |
 | `cline/` | The Cline marketplace listing: README, `llms-install.md`, 400 by 400 logo |
 | `antigravity/` | Google Antigravity plugin manifest and MCP configuration |
+| `openai/` | OpenAI plugin directory (ChatGPT and Codex): `plugin.json`, `mcp.json` at `https://sekura.ai/mcp/community`, icons; uploaded as a ZIP |
 | `gemini/gemini-extension.json` | Gemini CLI extension (legacy gallery) |
 | `logo.png` | The Sekura owl, 512 by 512 |
 
